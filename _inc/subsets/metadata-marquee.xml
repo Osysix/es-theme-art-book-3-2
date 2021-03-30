@@ -2,15 +2,10 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="detailed, video">      
+   <view name="detailed, video">
       <image name="logo">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </image>	  
-      <text name="logoText">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </text>	  
+         <visible>false</visible>
+      </image>
       <text name="system-name" extra="true">
          <pos>0.15 0.034375</pos>
          <size>0.7 0.03125</size>
@@ -19,42 +14,42 @@
          <fontSize>0.03125</fontSize>
          <fontPath>${bodyFont}</fontPath>
          <forceUppercase>true</forceUppercase>
-      </text>	  
+      </text>
       <image name="md_marquee">
-	 <default>./_inc/images/351elec.png</default>
+         <default>./_inc/images/351elec.png</default>
          <visible>true</visible>
-	 <origin>0.5 0.5</origin>
+         <origin>0.5 0.5</origin>
          <pos>0.75 0.23125</pos>
          <maxSize>0.38 0.23</maxSize>
-      </image>	  
-	 <image name="md_marquee_background" extra="true">
+      </image>
+      <image name="md_marquee_background" extra="true">
          <path>./_inc/images/marquee_background.png</path>
          <origin>0.5 0</origin>
-	 <pos>0.75 0.10625</pos>
-      </image>	  	  	  
-      <textlist name="gamelist">
+         <pos>0.75 0.10625</pos>
+      </image>
+         <textlist name="gamelist">
          <pos>0.020833333333334 0.10625</pos>
          <size>0.479166666666667 0.9</size>
-	 <lineSpacing>1.69</lineSpacing>
-      </textlist>	  	  
+         <lineSpacing>1.69</lineSpacing>
+      </textlist>
       <text name="md_lbl_releasedate">
          <visible>true</visible>
          <pos>0.55 0.86</pos>
          <fontSize>0.03</fontSize>
          <color>444444</color>
-      </text>	  
+      </text>
       <datetime name="md_releasedate">
          <visible>true</visible>
          <pos>0.665 0.86</pos>
          <size>0 0</size>
          <fontSize>0.03</fontSize>
          <color>FFFFFF55</color>
-      </datetime>	  
+      </datetime>
       <text name="md_lbl_developer">
          <visible>true</visible>
          <pos>0.55 0.917</pos>
          <fontSize>0.03</fontSize>
-      </text>	  
+      </text>
       <text name="md_developer">
          <visible>true</visible>
          <pos>0.665 0.917</pos>
@@ -62,12 +57,12 @@
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.03</fontSize>
          <color>FFFFFF55</color>
-      </text>	  
+      </text>
       <video name="md_video">
          <origin>0.5 0.5</origin>
          <pos>0.75 0.6125</pos>
          <maxSize>0.4 0.45</maxSize>
-      </video>	  
+      </video>
       <image name="background" extra="true">
          <color>121212</color>
       </image>
@@ -78,11 +73,11 @@
          <origin>0.5 0.5</origin>
          <pos>0.75 0.6125</pos>
          <maxSize>0.4 0.45</maxSize>
-      </image>	  
-	 <video name="md_video">
+      </image>
+      <video name="md_video">
          <visible>false</visible>
       </video>
-    </view>
+   </view>
 
    <view name="grid">
       <image name="background" extra="true">
