@@ -21,21 +21,21 @@
          <forceUppercase>true</forceUppercase>
       </text>	  
       <image name="md_marquee">
-	     <default>./_inc/images/351elec.png</default>
+	 <default>./_inc/images/351elec.png</default>
          <visible>true</visible>
-		 <origin>0.5 0.5</origin>
+	 <origin>0.5 0.5</origin>
          <pos>0.75 0.23125</pos>
-		 <maxSize>0.38 0.23</maxSize>
+         <maxSize>0.38 0.23</maxSize>
       </image>	  
-	  <image name="md_marquee_background" extra="true">
+	 <image name="md_marquee_background" extra="true">
          <path>./_inc/images/marquee_background.png</path>
-		 <origin>0.5 0</origin>
-		 <pos>0.75 0.10625</pos>
+         <origin>0.5 0</origin>
+	 <pos>0.75 0.10625</pos>
       </image>	  	  	  
       <textlist name="gamelist">
          <pos>0.020833333333334 0.10625</pos>
          <size>0.479166666666667 0.9</size>
-		 <lineSpacing>1.69</lineSpacing>
+	 <lineSpacing>1.69</lineSpacing>
       </textlist>	  	  
       <text name="md_lbl_releasedate">
          <visible>true</visible>
@@ -79,7 +79,7 @@
          <pos>0.75 0.6125</pos>
          <maxSize>0.4 0.45</maxSize>
       </image>	  
-	  <video name="md_video">
+	 <video name="md_video">
          <visible>false</visible>
       </video>
     </view>
